@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i etc/password | .... >allusers
+cut -d: -f1 /etc/passwd | > allusers
